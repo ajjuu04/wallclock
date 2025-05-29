@@ -1,0 +1,353 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   }
+
+
+body{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #e7e6e4;
+
+}
+
+header{
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    /* padding: 0.9rem 0; */
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgb(112, 112, 112) ;
+}
+
+
+header ul{    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    
+}
+
+header nav{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+header ul a{
+    text-decoration: none;
+    color: black;
+    padding: 0 2.5rem;
+    text-transform: lowercase;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.background{
+    position: absolute;
+    width: 1940px;
+    top: 50%;
+    left: calc(50% + 10px);
+    transform: translate(-50%, -50%);
+}
+
+.clockframe{
+    position: absolute;
+    width: 1200px;
+    top: calc(50% - 30px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.clockframe{
+    position: absolute;
+    width: 1200px;
+    top: calc(50% - 20px);
+    left: calc(50% + 370px);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.coma{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 1200px;
+    font-size: 300px;
+    top: calc(50% - 140px);
+    left: calc(50% + 62px);
+    transform: translate(-50%, -50%);
+    z-index: 4; 
+}
+.line{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 1200px;
+    font-weight: bold;
+    font-size: 50px;
+    top: calc(50% - 40px);
+    left: calc(50% + 70px);
+    transform: translate(-50%, -50%);
+    z-index: 5; 
+}
+.author{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 1200px;
+    font-weight: bold;
+    font-size: 20px;
+    top: calc(50% - (-120px));
+    left: calc(50% + 80px);
+    transform: translate(-50%, -50%);
+    z-index: 6; 
+}
+
+
+.clockin{
+    background-color: transparent;
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    top: calc(50% - 60px);
+    left: calc(50% + 349px);
+    transform: translate(-50%, -50%);
+    z-index: 3; 
+    color: rgb(39, 39, 39);
+}
+
+.point{
+    background-color: rgb(31, 30, 30);
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 3px 6px -2px black;
+}
+
+#sec{
+    background-color: rgb(56, 56, 56);
+    position: absolute;
+    width: 3px;
+    height: 135px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    top: 14.6%;
+    left: 49.8%;
+    transform-origin: bottom;
+    box-shadow: 5px 5px 6px -1px rgb(66, 66, 66);
+    
+} 
+#min{
+    background-color: rgb(48, 48, 48);
+    position: absolute;
+    width: 4.5px;
+    height: 110px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    top: 21.1%;
+    left: 49.5%;
+    transform-origin: bottom;
+    box-shadow: 5px 5px 6px -1px rgb(66, 66, 66);
+}
+#hours{
+    background-color: rgb(24, 24, 24);
+    position: absolute;
+    width: 7px;
+    height: 90px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    top: 26.3%;
+    left: 49.1%;
+    transform-origin: bottom;
+    box-shadow: 5px 5px 6px -1px rgb(66, 66, 66);
+}
+
+#brand{
+    position: absolute;
+    top: calc(50% - 60px);
+    left: calc(50% );
+    transform: translate(-50%, -50%);
+
+     
+}
+#mii{
+    position: absolute;
+    font-size: 0.5rem;
+    top: calc(50% - 48px);
+    left: calc(50% );
+    transform: translate(-50%, -50%);
+
+}
+
+.no1{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+    top: calc(50% - 133px);
+    left: calc(50% + 90px);
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);   
+    transform-origin: bottom;
+}
+
+.no2{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+    top: calc(50% - 78px);
+    left: calc(50% + 140px);
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);   
+}
+.no3{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 3.3rem;
+    font-style: normal;
+    top: calc(50%);
+    left: calc(50% + 163px);
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);    
+}
+.no4{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+    top: calc(50% - (-78px));
+    left: calc(50% + 140px);
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);   
+}
+.no5{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+    top: calc(50% - (-133px));
+    left: calc(50% + 90px);
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);   
+}
+.no6{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 3.3rem;
+    font-style: normal;
+    top: calc(50% - (-160px));
+    left: calc(50% + 5px);
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);    
+}
+.no7{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+    top: calc(50% - (-138px));
+    left: calc(50% + (-75px));
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);   
+}
+.no8{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+    top: calc(50% - (-78px));
+    left: calc(50% + (-140px));
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);   
+}
+.no9{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 3.3rem;
+    font-style: normal;
+    top: calc(50%);
+    left: calc(50% + (-163px));
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);    
+}
+.no10{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+    top: calc(50% - 78px);
+    left: calc(50% + (-140px));
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);   
+}
+
+.no11{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+    top: calc(50% - 133px);
+    left: calc(50% + (-85px));
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);   
+}
+.no12{
+    position: absolute;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-size: 3.3rem;
+    font-style: normal;
+    top: calc(50% - 157px);
+    left: calc(50% + 5px);
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgb(143, 142, 133);   
+}
+
+
+
+
+
+
+
+
+
